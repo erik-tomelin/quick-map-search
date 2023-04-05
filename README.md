@@ -1,8 +1,6 @@
-# quick-map-search
-
 ### Alunos: Erik Tomelin, Gustavo Malkovski, Vinícius Ferri
 
-#
+# quick-map-search
 
 <h1>Relevância e Complexidade do Projeto</h1>
 O projeto tem como base encontrar a rota mais rápida entre os pontos escolhidos pelo usuário (podendo ser no mínimo 2 e no máximo 5). Essa aplicação implica na economiza de tempo e combustível utilizada pelo mesmo.
