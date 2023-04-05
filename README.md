@@ -29,4 +29,4 @@ O código fonte será feito com base na linguagem angular, que tem sua arquitetu
   - SOLID
 #
 ### Pipeline da aplicação
-![pipeline](https://github.com/erik-tomelin/quick-map-search/blob/main/Diagrama%20Pipeline.png)
+![pipeline](https://github.com/erik-tomelin/quick-map-search/blob/main/Diagramas/Diagrama%20Pipeline.png)
