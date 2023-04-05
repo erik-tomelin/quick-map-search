@@ -30,3 +30,6 @@ O código fonte será feito com base na linguagem angular, que tem sua arquitetu
 #
 ### Pipeline da aplicação
 ![pipeline](https://github.com/erik-tomelin/quick-map-search/blob/main/Diagramas/Diagrama%20Pipeline.png)
+
+### Artefatos da aplicação
+![Artefatos](https://github.com/erik-tomelin/quick-map-search/blob/main/Diagramas/artefatos.jpg)
