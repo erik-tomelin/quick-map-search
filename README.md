@@ -2,7 +2,7 @@
 
 <h1>Quick Map Search</h1>
 
-<h2>Relevância e Complexidade do Projeto</h2>
+##Relevância e Complexidade do Projeto
 O projeto tem como base encontrar a rota mais rápida entre os pontos escolhidos pelo usuário (podendo ser no mínimo 2 e no máximo 5). Essa aplicação implica na economiza de tempo e combustível utilizada pelo mesmo.
   
 <h3>Exemplo da aplicação</h3>
