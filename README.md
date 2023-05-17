@@ -1,35 +1,43 @@
-### Alunos: Erik Tomelin, Gustavo Malkovski, Vinícius Ferri
+# Getting Started with Google Maps API with Places autocomplete and Directions service and renderer.
 
-# Quick Map Search
+## What is covered?
 
-### Relevância e Complexidade do Projeto
-O projeto tem como base encontrar a rota mais rápida entre os pontos escolhidos pelo usuário (podendo ser no mínimo 2 e no máximo 5). Essa aplicação implica na economiza de tempo e combustível utilizada pelo mesmo.
-  
-### Exemplo da aplicação
-Um entregador que tem que adicionar cada ponto separadamente em seu aplicativo de mapa online.
+1. Google maps in React
+2. Adding Markers
+3. Panning and zooming maps
+4. Disable default controls
+5. Places Autocomplete
+6. Directions Service
+7. Directions Renderer on map
 
-<br>
+## Youtube tutorial
 
-A aplicação será montada em cima da filosofia de desenvolvimento Clean Code. Futuramente, poderá ser integrar diretamente com algum aplicativo de delivery (como por exemplo, o Zé Delivery).
+[https://youtu.be/iP3DnhCUIsE](https://youtu.be/iP3DnhCUIsE)
 
-### Documentação
-O código fonte será feito com base na linguagem angular, que tem sua arquitetura pré montada para facilitar o desenvolvimento e a leitura de códigos futuros. Utilizaremos a metodologia KISS e também SOLID e desenvolvemos testes unitários baseados no que já existe no angular.
+## Starting the app
 
-- Testes unitários
-  - Frontend (Jasmine e Karma - Angular) e Backend (PyUnit - Python)
-- Fron-end
-  - Angular 13+
-- Back-end
-  - Python 3.10+
-  - SonarQube (Para revisão automática de código)
-- Infraestrutura e características de projeto
-  - Kubernet (por conta da Infrastructure ascode(IaC) em nuvem)
-- Metodologias
-  - KISS
-  - SOLID
-#
-### Pipeline da aplicação
-![pipeline](https://github.com/erik-tomelin/quick-map-search/blob/main/Diagramas/Diagrama%20Pipeline.png)
+Create an API in the google developers console [https://console.developers.google.com](https://console.developers.google.com), make sure to enable billing for the google project, otherwise you may get a warning as _development purposes only_.
 
-### Artefatos da aplicação
-![Artefatos](https://github.com/erik-tomelin/quick-map-search/blob/main/Diagramas/artefatos.jpg)
+Add a `.env` file or `.env.local` in the project root and specify your API key as `REACT_APP_GOOGLE_MAPS_API_KEY=your_api_key_here`
+
+In the project directory, you can run:
+
+```
+yarn install
+yarn start
+```
+
+OR using npm
+
+```
+npm install
+npm start
+```
+
+## Author
+
+- [**Truly Mittal**](https://trulymittal.com)
+
+## Contribute
+
+You can fork this repo and send me a PR.
