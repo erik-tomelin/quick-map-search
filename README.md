@@ -11,12 +11,11 @@
 7. Renderização das direções
 
 ## Iniciando o App
+Crie uma chave de API no google developers console [https://console.developers.google.com](https://console.developers.google.com), certifique-se de habilitar o acesso de terceiros a sua API, caso contrario apresentará um erro de _development purposes only_.
 
-Create an API in the google developers console [https://console.developers.google.com](https://console.developers.google.com), make sure to enable billing for the google project, otherwise you may get a warning as _development purposes only_.
+Adicione um arquivo `.env` ou `.env.local` na pasta raiz do projeto e especifique a sua chave de API como `REACT_APP_GOOGLE_MAPS_API_KEY=your_api_key_here`.
 
-Add a `.env` file or `.env.local` in the project root and specify your API key as `REACT_APP_GOOGLE_MAPS_API_KEY=your_api_key_here`
-
-No diretório do projeto, você pode rodar
+No diretório do projeto, você deve rodar
 
 ```
 yarn install
