@@ -34,3 +34,22 @@ npm install
 npm start
 ```
 Isso instalará as dependências do projeto e iniciará o aplicativo. Acesse `http://localhost:3000` em seu navegador para visualizar o aplicativo.
+
+# Projeto de Geração de Labirintos e Busca de Caminhos com o Algoritmo A*
+
+Este projeto consiste em uma implementação em Python do algoritmo A* (A-Star) para geração de labirintos aleatórios e busca de caminhos entre um ponto de início e um ponto de objetivo no labirinto. O objetivo principal é demonstrar o funcionamento do algoritmo A* e sua aplicação em problemas de busca de caminhos.
+
+## Funcionalidades Principais
+- Geração de labirintos: Utilizando o algoritmo de caminhada aleatória, o projeto gera labirintos aleatórios com caminhos livres e paredes.
+- Algoritmo A*: O algoritmo A* é aplicado para encontrar o caminho mais curto entre um ponto de início e um ponto de objetivo no labirinto.
+- Heurística de distância de Manhattan: Para estimar a distância entre os nós, é utilizada a heurística de distância de Manhattan, que considera a soma das distâncias -horizontais e verticais entre os pontos.
+- Marcação de caminhos: O caminho principal encontrado pelo algoritmo A* é marcado no labirinto com o símbolo '*', facilitando a visualização do caminho percorrido.
+- Caminhos alternativos: Além do caminho principal, o projeto gera caminhos alternativos para explorar diferentes rotas no labirinto.
+Como utilizar
+
+Siga as instruções abaixo para executar o projeto em sua máquina:
+
+Certifique-se de ter o Python instalado em seu ambiente.
+Faça o download dos arquivos do projeto.
+Execute o arquivo maze_solver.py em um interpretador Python.
+Ao executar o código, o projeto irá gerar um labirinto aleatório e encontrar o caminho mais curto entre o ponto de início e o ponto de objetivo utilizando o algoritmo A*. O caminho principal será marcado no labirinto com o símbolo '*', indicando o percurso realizado. Além disso, serão gerados caminhos alternativos para explorar diferentes rotas no labirinto.
