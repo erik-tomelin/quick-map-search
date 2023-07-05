@@ -55,11 +55,12 @@ Como utilizar
 
 
 Siga as instruções abaixo para executar o projeto em sua máquina:
+- Certifique-se de ter o Python instalado em seu ambiente.
+- Faça o download dos arquivos do projeto.
+- Execute o arquivo maze_solver.py em um interpretador Python.
 
-Certifique-se de ter o Python instalado em seu ambiente.
-Faça o download dos arquivos do projeto.
-Execute o arquivo maze_solver.py em um interpretador Python.
-Ao executar o código, o projeto irá gerar um labirinto aleatório e encontrar o caminho mais curto entre o ponto de início e o ponto de objetivo utilizando o algoritmo A*. O caminho principal será marcado no labirinto com o símbolo '*', indicando o percurso realizado. Além disso, serão gerados caminhos alternativos para explorar diferentes rotas no labirinto.
+Ao executar o código, o projeto irá gerar um labirinto aleatório e encontrar o caminho mais curto entre o ponto de início e o ponto de objetivo utilizando o algoritmo A*. 
+O caminho principal será marcado no labirinto com o símbolo '*', indicando o percurso realizado. Além disso, serão gerados caminhos alternativos para explorar diferentes rotas no labirinto.
 
 ## Mapa Gerado e a busca de caminhos com o Algoritmo A*
 ![image](https://github.com/erik-tomelin/quick-map-search/assets/63025296/ae6d83c8-e60f-42e6-9110-29d485740c31)
