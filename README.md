@@ -1,6 +1,6 @@
 # Projeto Google Maps em React
 
-Este projeto tem como objetivo demonstrar a integração do Google Maps em uma aplicação React, com recursos como adicionar marcadores, zoom in e zoom out, controles básicos ocultados, autocomplete nas localizações, serviço de direção e renderização das direções.
+Este projeto foi desenvolvido por Erik Tomelin, Vinicius Ferri e Gustavo Malkovski, e possui como objetivo demonstrar a integração do Google Maps em uma aplicação React, com recursos como adicionar marcadores, zoom in e zoom out, controles básicos ocultados, autocomplete nas localizações, serviço de direção e renderização das direções.
 
 ## Funcionalidades Principais
 
@@ -42,6 +42,7 @@ npm start
 Isso instalará as dependências do projeto e iniciará o aplicativo. Acesse `http://localhost:3000` em seu navegador para visualizar o aplicativo.
 
 # Projeto de Geração de Labirintos e Busca de Caminhos com o Algoritmo A*
+link para o projeto: https://colab.research.google.com/drive/1jhSCs2Iw_O3h7MvYy28ZHChUl1o0SBz2?usp=sharing
 
 Este projeto consiste em uma implementação em Python do algoritmo A* (A-Star) para geração de labirintos aleatórios e busca de caminhos entre um ponto de início e um ponto de objetivo no labirinto. O objetivo principal é demonstrar o funcionamento do algoritmo A* e sua aplicação em problemas de busca de caminhos.
 
